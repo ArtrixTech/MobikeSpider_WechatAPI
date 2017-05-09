@@ -5,8 +5,9 @@ from kml_operations import create
 
 tileset = r'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
 
-start_lat = 22.6147826484
-start_lon = 113.8626108720
+# test location
+start_lat = 22
+start_lon = 113
 all_bike = get_bikes_square(start_lat, start_lon, 0.01, 0.01)
 
 lats=list()
